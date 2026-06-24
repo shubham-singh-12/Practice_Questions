@@ -75,3 +75,86 @@ let lastName = "Singh";
 
 let fullName = firstName + lastName;
 console.log(fullName);
+
+
+
+
+
+// ========================================================================================================================================================
+// 8. Store your favorite movie's name in a variable called favoriteMovie.
+let favouriteMovie = "Fast & Furious";
+
+console.log((`Favourite name: ${favouriteMovie}`));
+
+
+
+
+
+// ========================================================================================================================================================
+// 9. Declare a variable weight and log it to the console.
+let weight = 23.9;
+
+console.log(`Weight: ${weight} Kg`);
+
+
+
+
+
+// ========================================================================================================================================================
+// 10. Take two variables holding numbers and exchange their contents.
+let number_1 = 6;
+let number_2 = 2;
+
+console.log(`==================== Before Exchange ====================`);
+console.log(`Number 1: ${number_1} \nNumber 2: ${number_2}`);
+
+number_1 = number_1 + number_2;
+number_2 = number_1 - number_2;
+
+number_1 = number_1 - number_2;
+
+console.log(`==================== After Exchange ====================`);
+console.log(`Number 1: ${number_1} \nNumber 2: ${number_2}`);
+
+
+
+
+
+// ========================================================================================================================================================
+// 11. Declare a constant GRAVITY and display its value.
+const gravity = 9.81;
+
+console.log(`Earth gravity: ${gravity}`);
+
+
+
+
+
+// ========================================================================================================================================================
+// 12. Declare a variable named middleName with no assigned value and log it.
+let middleName;
+
+console.log(middleName);
+
+
+
+
+
+// ========================================================================================================================================================
+// 13. Set a variable balance to 200 and reduce it by 45.
+let balancedValue = 200;
+let reducedValue = 45;
+
+console.log(`Final result: ${balancedValue - reducedValue}`);
+
+
+
+
+
+// ========================================================================================================================================================
+// 14. Declare three separate variables for hours, minutes, and seconds.
+let currentHours = new Date().getHours();
+let currentminutes = new Date().getMinutes();
+let currentSeconds = new Date().getSeconds();
+
+console.log(`Current Time: ${currentHours}:${currentminutes}:${currentSeconds}`);
