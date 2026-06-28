@@ -56,3 +56,75 @@ console.log(Number.isInteger(userNumber_6));
 // 7. Use `toFixed(2)` on `3.141592`.
 let userNumber_7 = 3.141592;
 console.log(userNumber_7.toFixed(2));
+
+
+
+
+
+// ========================================================================================================================================================
+// 8. Round 6.2 to the nearest whole number.
+let givenNumber_8 = 6.2;
+let roundedNumber_8 = Math.round(givenNumber_8);
+
+console.log(roundedNumber_8);
+
+
+
+
+
+// ========================================================================================================================================================
+// 9. Find the square root of 225.
+let givenNumber_9 = 255;
+let squareRoot_9 = Math.sqrt(givenNumber_9);
+
+console.log(squareRoot_9);
+
+
+
+
+
+// ========================================================================================================================================================
+// 10. Find the largest value among 7, 42, 19, 3.
+console.log(Math.max(7, 42, 19, 3));
+
+
+
+
+
+// ========================================================================================================================================================
+// 11. Produce a random number between 1 and 50.
+let randomNumber_11 = Math.floor(Math.random() * 50 + 1);
+console.log(randomNumber_11);
+
+
+
+
+
+// ========================================================================================================================================================
+// 12. Turn the string "12.49" into a plain integer.
+let givenString_12 = "12.49";
+let string_to_number = parseInt(givenString_12);
+
+console.log(string_to_number);
+
+
+
+
+
+// ========================================================================================================================================================
+// 13. Determine whether 18.0 counts as an integer.
+let givenNumber_13 = 18.0;
+let countAsInteger = Number.isInteger(givenNumber_13)
+
+console.log(countAsInteger);
+
+
+
+
+
+// ========================================================================================================================================================
+// 14. Apply toFixed(3) to the number 2.71828.
+let givenNumber_14 = 2.71828;
+let outputNumber = givenNumber_14.toFixed(3);
+
+console.log(outputNumber);

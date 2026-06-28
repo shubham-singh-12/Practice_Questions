@@ -97,3 +97,125 @@ let userAge = 20;
 let userInfo = `My name is ${userName} and I am ${userAge} years old`;
 
 console.log(userInfo);
+
+
+
+
+
+// ========================================================================================================================================================
+// 12. Store a sentence in a variable and print how many characters it has.
+let sentence_12 = "This is sentence";
+
+console.log(sentence_12.length);
+
+
+
+
+
+// ========================================================================================================================================================
+// 13. Turn a lowercase sentence into all uppercase.
+let lowerCase_sentence_13 = "hello world";
+let upperCase_sentence_13 = lowerCase_sentence_13.toUpperCase();
+
+console.log(upperCase_sentence_13);
+
+
+
+
+
+// ========================================================================================================================================================
+// 14. Turn an uppercase sentence into all lowercase.
+let upperCase_sentence_14 = "HELLO WORLD";
+let lowerCase_sentence_14 = upperCase_sentence_14.toLowerCase();
+
+console.log(lowerCase_sentence_14);
+
+
+
+
+
+// ========================================================================================================================================================
+// 15. Check whether a string contains the word "React".
+let givenString_15 = "React is a JavaScript Framework";
+let stringContain_15 = givenString_15.includes("React");
+
+console.log(stringContain_15);
+
+
+
+
+
+// ========================================================================================================================================================
+// 16. Pull out the word "Script" from "Java Script Code".
+let givenString_16 = "Java Script Code";
+let removedString_16 = givenString_16.slice(5, 11);
+
+console.log(removedString_16);
+
+
+
+
+
+// ========================================================================================================================================================
+// 17. Swap "slow" for "fast" inside a sentence.
+let givenString_17 = "Turtle is slow";
+let swapString_17 = givenString_17.replace("slow", "fast");
+
+console.log(swapString_17);
+
+
+
+
+
+// ========================================================================================================================================================
+// 18. Break apart "Mon,Tue,Wed" into an array using the comma.
+let givenString_18 = "Mon, Tue, Wed";
+let breakString_18 = givenString_18.split(",");
+
+console.log(breakString_18);
+
+
+
+
+
+// ========================================================================================================================================================
+// 19. Strip the leading and trailing spaces off a messy string.
+let givenSentence_19 = "  Hello welcome to the JavaScript Course     ";
+let correctSentence_19 = givenSentence_19.trim();
+
+console.log(correctSentence_19);
+
+
+
+
+
+// ========================================================================================================================================================
+// 20. Print the word "Yo" repeated 3 times.
+let givenWord_20 = "Yo";
+let repeatWord_20 = givenWord_20.repeat(3);
+
+console.log(repeatWord_20);
+
+
+
+
+
+// ========================================================================================================================================================
+// 21. Print the last letter of a word.
+let givenLetter_21 = "Hello World";
+let lastLetter_21 = givenLetter_21[givenLetter_21.length - 1];
+
+console.log(lastLetter_21);
+
+
+
+
+
+// ========================================================================================================================================================
+// 22. Use a template literal to output: "Welcome back, Priya! You have 5 new messages."
+let userName_22 = "Priya";
+let newMessage = 5;
+
+let complete_info = `Welcome back, ${userName_22}! You have ${newMessage} new messages`;
+
+console.log(complete_info);
