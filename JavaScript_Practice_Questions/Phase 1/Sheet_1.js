@@ -1,114 +1,3 @@
-// =================================================================== CONSOLE & BASICS ===================================================================
-// 1. Print `"Hello JavaScript"` in the console.
-// 2. Print your name, age, and city using one `console.log()`.
-// 3. Print a warning message using `console.warn()`.
-// 4. Print an error message using `console.error()`.
-// 5. Use `console.table()` to display an array of 5 numbers.
-// 6. Display the text "JS is the language of the web" on the console.
-// 7. Combine your school/college name, branch, and year into a single console.log() statement.
-// 8. Show a warning that says "Form not saved".
-// 9. Show an error that says "Invalid input detected".
-// 10. Display a table of 5 country names using console.table().
-
-
-
-
-
-
-// ========================================================================================================================================================
-// ====================================================================== VARIABLES =======================================================================
-// 1. Create a variable called `studentName` and store your name in it.
-// 2. Create a variable `age` and print it.
-// 3. Create two variables and swap their values.
-// 4. Create a constant variable for `PI` and print it.
-// 5. Declare a variable without assigning a value and print it.
-// 6. Create a variable `score` and increase it by 10.
-// 7. Create three variables for first name, last name, and full name.
-// 8. Store your favorite movie's name in a variable called favoriteMovie.
-// 9. Declare a variable weight and log it to the console.
-// 10. Take two variables holding numbers and exchange their contents.
-// 11. Declare a constant GRAVITY and display its value.
-// 12. Declare a variable named middleName with no assigned value and log it.
-// 13. Set a variable balance to 200 and reduce it by 45.
-// 14. Declare three separate variables for hours, minutes, and seconds.
-
-
-
-
-
-
-// ========================================================================================================================================================
-// ====================================================================== DATA TYPES ======================================================================
-// 1. Create variables of type string, number, boolean, null, and undefined.
-// 2. Check the type of different variables using `typeof`.
-// 3. Store your mobile number in a variable and check its type.
-// 4. Create a variable with value `null` and check its type.
-// 5. Create a bigint number and print it.
-// 6. Set up five variables — one each of type string, number, boolean, null, and undefined — describing a "car".
-// 7. Run typeof on three different variables and log each result.
-// 8. Save your Aadhaar/ID number in a variable and inspect its data type.
-// 9. Assign undefined to a variable and confirm its type.
-// 10. Declare a bigint to represent a country's national debt and print it.
-
-
-
-
-
-
-// ========================================================================================================================================================
-// ============================================================== TYPE CONVERSION & COERCION ==============================================================
-// 1. Convert the string `"50"` into a number.
-// 2. Convert the number `100` into a string.
-// 3. Convert `"true"` into a boolean.
-// 4. Check the output of:
-// - `"5" + 2`
-// - `"5" - 2`
-// - `true + 1`
-
-// 5. Create a variable with value `"123abc"` and convert it into a number.
-// 6. Use `parseInt()` on `"500px"`.
-// 7. Turn the string "88" into a number type.
-// 8. Turn the number 365 into a string type.
-// 9. Turn the string "false" into a boolean.
-// 10. Predict and check the result of:
-// - "7" + 3
-// - "7" - 3
-// - false + 1
-
-// 11. Take the value "42kmph" and convert it into a usable number.
-// 12. Apply parseInt() to the string "100km".
-
-
-
-
-
-
-// ========================================================================================================================================================
-// ====================================================================== OPERATORS =======================================================================
-// 1. Add two numbers and print the result.
-// 2. Find the remainder when 25 is divided by 4.
-// 3. Find the square of a number using exponent operator.
-// 4. Increment a variable using `++`.
-// 5. Decrement a variable using `-`.
-// 6. Use `+=` operator to increase a variable by 20.
-// 7. Compare two numbers using `>`, `<`, `>=`, `<=`.
-// 8. Check if two values are strictly equal using `===`.
-// 9. Compare `"10"` and `10` using both `==` and `===`.
-// 10. Create two boolean variables and test `&&`, `||`, and `!`.
-// 11. Multiply two numbers and display the result.
-// 12. Calculate the remainder of 50 divided by 6.
-// 13. Compute the fourth power of a number using the exponent operator.
-// 14. Use ++ to bump up a counter variable twice.
-// 15. Use -- to bring down a counter variable.
-// 16. Use -= to reduce a variable's value by 25.
-// 17. Compare two test scores using >, <, >=, and <=.
-// 18. Use === to check strict equality between "0" and 0.
-// 19. Compare NaN with itself using == and ===.
-// 20. Declare two booleans and check the outcome of &&, ||, and ! separately.
-
-
-
-
 
 
 // ========================================================================================================================================================
@@ -136,11 +25,6 @@
 // 21. Print the last letter of a word.
 // 22. Use a template literal to output: "Welcome back, Priya! You have 5 new messages."
 
-
-
-
-
-
 // ========================================================================================================================================================
 // ==================================================================== NUMBERS & MATH ====================================================================
 // 1. Round `4.7` using `Math.round()`.
@@ -157,11 +41,6 @@
 // 12. Turn the string "12.49" into a plain integer.
 // 13. Determine whether 18.0 counts as an integer.
 // 14. Apply toFixed(3) to the number 2.71828.
-
-
-
-
-
 
 // ========================================================================================================================================================
 // ===================================================================== CONDITIONALS =====================================================================
@@ -200,11 +79,6 @@
 // 23. Output the season name based on a month number.
 // 24. Verify that an entered PIN equals "4321".
 
-
-
-
-
-
 // ========================================================================================================================================================
 // ==================================================================== TRUTHY & FALSY ====================================================================
 // 1. Check whether an empty string is truthy or falsy.
@@ -216,11 +90,6 @@
 // 7. Determine if an empty array [] is truthy or falsy.
 // 8. Declare a variable and output "Set" if it holds a value, otherwise output "Not Set".
 
-
-
-
-
-
 // ========================================================================================================================================================
 // =================================================================== TERNARY OPERATOR ===================================================================
 // 1. Check whether a number is even or odd using ternary operator.
@@ -229,11 +98,6 @@
 // 4. Determine whether a number is positive or negative using a ternary expression.
 // 5. Determine whether someone is a minor or adult (under/over 18) using a ternary expression.
 // 6. Determine the larger of two scores using a ternary expression.
-
-
-
-
-
 
 // ========================================================================================================================================================
 // =============================================================== MIXED PRACTICE QUESTIONS ===============================================================
@@ -257,11 +121,6 @@
 // 18. Build an employee ID generator using department code and joining year.
 // 19. Determine if a string ends with a particular letter.
 // 20. Count how many digits appear in a sentence (ignoring letters and spaces).
-
-
-
-
-
 
 // ========================================================================================================================================================
 // ============================================================== LOGICAL THINKING QUESTIONS ==============================================================
@@ -291,11 +150,6 @@
 // 18. Build a basic coupon code calculator (percentage off based on code type).
 // 19. Determine whether a flight has available seats remaining.
 // 20. Compute the take-home pay after deducting a fixed insurance amount.
-
-
-
-
-
 
 // ========================================================================================================================================================
 // ========================================================== CHALLENGE QUESTIONS FOR BEGINNERS ===========================================================
